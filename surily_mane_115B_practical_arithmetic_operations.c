@@ -1,3 +1,5 @@
+//calculat the sum, difference, product, quotient of two numbers.
+
 #include<stdio.h>
 
 void main()
