@@ -9,6 +9,11 @@ int main()
     printf("Please enter the number: ");
     scanf("%d",&number);
 
+    if (number == 0)
+    {
+        printf("Please enter a number greater or less than 0: ");
+        scanf("%d",&number):
+    }
     if (number%2 == 0)
     {
         printf("The number %d is even.",number);
